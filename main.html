@@ -2,17 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>Movie Image Gallery</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .movie-image {
+      width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
   <div class="container-fluid">
-    <img class="image" src="https://course.acciojob.com/acciojob_logo.svg" alt="image">
-    <img class="image" src="https://course.acciojob.com/acciojob_logo.svg" alt="image">
-    <img class="image" src="https://course.acciojob.com/acciojob_logo.svg" alt="image">
-    <img class="image" src="https://course.acciojob.com/acciojob_logo.svg" alt="image">
+    <div class="row">
+      <div class="col-md-1">
+        <img src="image1.jpg" alt="Movie 1" class="movie-image">
+      </div>
+      <div class="col-md-1">
+        <img src="image2.jpg" alt="Movie 2" class="movie-image">
+      </div>
+      <div class="col-md-1">
+        <img src="image3.jpg" alt="Movie 3" class="movie-image">
+      </div>
+      <!-- Add more columns for the first row here (up to 12) -->
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <img src="image4.jpg" alt="Movie 4" class="movie-image">
+      </div>
+      <div class="col-md-2">
+        <img src="image5.jpg" alt="Movie 5" class="movie-image">
+      </div>
+      <div class="col-md-2">
+        <img src="image6.jpg" alt="Movie 6" class="movie-image">
+      </div>
+      <!-- Add more columns for the second row here (up to 6) -->
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="image7.jpg" alt="Movie 7" class="movie-image">
+      </div>
+      <div class="col-md-4">
+        <img src="image8.jpg" alt="Movie 8" class="movie-image">
+      </div>
+      <div class="col-md-4">
+        <img src="image9.jpg" alt="Movie 9" class="movie-image">
+      </div>
+      <!-- Add more columns for the third row here (up to 3) -->
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="image10.jpg" alt="Movie 10" class="movie-image">
+      </div>
+      <!-- Add the last column for the last row here -->
+    </div>
   </div>
-  
 </body>
 </html>
